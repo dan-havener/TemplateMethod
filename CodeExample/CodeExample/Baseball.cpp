@@ -11,17 +11,17 @@ Baseball::~Baseball()
 
 void Baseball::setUpGame()
 {
-	printf("Baseball match set up \n")
+	printf("Baseball match set up \n");
 }
 
 void Baseball::startGame()
 {
-	printf("Baseball match started \n")
+	printf("Baseball match started \n");
 
 }
 
 void Baseball::endGame()
 {
-	printf("Baseball match ended! \n\n")
+	printf("Baseball match ended! \n\n");
 
 }
