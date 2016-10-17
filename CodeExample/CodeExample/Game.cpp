@@ -10,19 +10,19 @@ Game::~Game()
 
 void Game::play()
 {
-	init();
-	startPlay();
-	endPlay();
+	setUpGame();
+	startGame();
+	endGame();
 }
 
-void Game::init()
+void Game::setUpGame()
 {
 }
 
-void Game::startPlay()
+void Game::startGame()
 {
 }
 
-void Game::endPlay()
+void Game::endGame()
 {
 }
