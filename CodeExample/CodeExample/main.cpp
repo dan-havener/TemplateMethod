@@ -1,22 +1,23 @@
 #include <stdio.h>
-#include "Game.h"
+#include "Baseball.h"
+#include "Basketball.h"
+#include "Football.h"
+#include "Hockey.h"
 
 int main(int argc, char* argv[])
 {
 
-	Game game = new Basketball();
-	game.play();
+	Game* game = new Basketball();
+	game->play();
 
-	Game game = new Baseball();
-	game.play();
+	game = new Baseball();
+	game->play();
 
-	Game game = new Football();
-	game.play();
+	game = new Football();
+	game->play();
 
-	Game game = new Hockey(); //Go Bruins
-	game.play();
-
-	system("pause");
+	game = new Hockey(); //Go Bruins
+	game->play();
 	
 	return 0;
 }

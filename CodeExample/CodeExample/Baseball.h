@@ -1,6 +1,9 @@
+#ifndef _BASEBALL_H
+#define _BASEBALL_H
+
 #include "Game.h"
 
-class Baseball : Game
+class Baseball : public Game
 {
 public:
 	Baseball();
@@ -13,3 +16,5 @@ public:
 private:
 
 };
+
+#endif _BASEBALL_H

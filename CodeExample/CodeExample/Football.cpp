@@ -21,5 +21,5 @@ void Football::startGame()
 
 void Football::endGame()
 {
-	printf("Football match ended! \n\n")
+	printf("Football match ended! \n\n");
 }

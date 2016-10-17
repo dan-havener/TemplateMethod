@@ -64,7 +64,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Baseball.cpp" />
+    <ClCompile Include="Basketball.cpp" />
+    <ClCompile Include="Football.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Hockey.cpp" />
     <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Baseball.h" />
+    <ClInclude Include="Basketball.h" />
+    <ClInclude Include="Football.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Hockey.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
