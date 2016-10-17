@@ -1,4 +1,9 @@
+#pragma once
 #include <stdio.h>
+#include "Basketball.h"
+#include "Basketball.h"
+#include "Football.h"
+#include "Hockey.h"
 
 class Game
 {

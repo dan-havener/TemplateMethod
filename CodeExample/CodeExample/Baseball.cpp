@@ -17,7 +17,6 @@ void Baseball::setUpGame()
 void Baseball::startGame()
 {
 	printf("Baseball match started \n");
-
 }
 
 void Baseball::endGame()

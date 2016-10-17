@@ -17,11 +17,9 @@ void Basketball::setUpGame()
 void Basketball::startGame()
 {
 	printf("Basketball match started \n");
-
 }
 
 void Basketball::endGame()
 {
 	printf("Basketball match ended! \n\n");
-
 }
