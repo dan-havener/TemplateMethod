@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "Baseball.h"
 #include "Basketball.h"
 #include "Football.h"
@@ -18,6 +19,8 @@ int main(int argc, char* argv[])
 
 	game = new Hockey(); //Go Bruins
 	game->play();
+
+	system("pause");
 	
 	return 0;
 }
